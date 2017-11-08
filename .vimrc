@@ -89,3 +89,9 @@ map <C-n> :NERDTreeToggle<CR>
 
 "autoclose NerdTree if all rest vim windows are closed
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+"show hidden files
+let NERDTreeShowHidden=1
+
+"open Nerd on vim startup
+autocmd VimEnter * NERDTree
