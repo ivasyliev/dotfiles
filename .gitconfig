@@ -3,5 +3,5 @@
 	ci = commit
 	co = checkout
 	br = branch
+	lola = log --graph --decorate --pretty=format:\"%C(auto)%h %C(green)%cd%Creset %C(auto)%d %s %C(cyan)[%cn]\" --date=short --abbrev-commit --all
 	lol = log --graph --decorate --pretty=oneline --abbrev-commit
-    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
