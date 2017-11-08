@@ -1,7 +1,7 @@
 #!/bin/sh
 # script to setup static links for config files in home directory
-rm ~/.gitconfig
-rm ~/.vimrc
+rm -f ~/.gitconfig
+rm -f ~/.vimrc
 ln -s ~/Documents/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/Documents/dotfiles/.vimrc ~/.vimrc
 
