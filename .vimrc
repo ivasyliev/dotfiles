@@ -74,9 +74,11 @@ set nu
 "make possible to use system clipboard
 set clipboard=unnamed
 
+"show tabs, newline and other symbols
+set list
 
-
-
+"set dark bg for good colors in tmux
+set background=dark
 
 
 
