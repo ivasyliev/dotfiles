@@ -76,7 +76,7 @@ set relativenumber
 set clipboard=unnamed
 
 "show tabs, newline and other symbols
-set list
+"set list
 
 "set dark bg for good colors in tmux
 set background=dark
@@ -95,6 +95,3 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 "show hidden files
 let NERDTreeShowHidden=1
-
-"open Nerd on vim startup
-autocmd VimEnter * NERDTree
