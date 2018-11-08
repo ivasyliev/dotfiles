@@ -70,6 +70,7 @@ set shiftwidth=4
 
 "show line numbers
 set nu
+set relativenumber
 
 "make possible to use system clipboard
 set clipboard=unnamed
